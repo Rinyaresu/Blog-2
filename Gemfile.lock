@@ -241,7 +241,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  better_errors (~> 2.9, >= 2.9.1)
+  better_errors
   bootsnap (>= 1.4.4)
   bulma-rails (~> 0.9.1)
   byebug
