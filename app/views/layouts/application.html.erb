@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DemoBlog</title>
+    <title>KaiqueOnRails</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,30 @@
   </head>
 
   <body>
+    <section class="hero is-small is-primary">
+      <!-- Hero head: will sitck at the top -->
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <%= link_to "Create New Post", new_post_path, class:"navbar-item" %>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero Content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container is-fluid">
+          <h1 class="title">
+            <%= link_to 'KaiqueOnRails', root_path %>
+          </h1>
+        </div>
+      </div>
+    </section>
+
     <%= yield %>
   </body>
 </html>
