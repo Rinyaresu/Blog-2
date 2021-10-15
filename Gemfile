@@ -69,6 +69,11 @@ gem 'pg', '~> 1.1', :group => :production
 
 gem 'rails_admin', '~> 2.2', '>= 2.2.1'
 gem 'rails_admin_rollincode', '~> 1.1'
+
 gem "devise"
+
 gem 'binding_of_caller', '~> 1.0'
+
 gem 'remotipart', '~> 1.4', '>= 1.4.4'
+
+gem 'rubocop-rails', require: false
