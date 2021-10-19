@@ -1,11 +1,10 @@
 class PostsController < ApplicationController
-
   http_basic_authenticate_with name: Rails.application.credentials.authenticate[:name],
                                password: Rails.application.credentials.authenticate[:password],
-                               except: [:index, :show]
+                               except: %i[index show]
 
   def index
-    @posts = Post.all.order("created_at DESC")
+    @posts = Post.all.order('created_at DESC')
   end
 
   def new
@@ -42,10 +41,10 @@ class PostsController < ApplicationController
   def destroy
     @post = Post.find(params[:id])
     @post.destroy
-    
+
     redirect_to posts_path
   end
-  
+
   private
 
   def post_params
