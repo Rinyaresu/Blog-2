@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PostsController < ApplicationController
   http_basic_authenticate_with name: Rails.application.credentials.authenticate[:name],
                                password: Rails.application.credentials.authenticate[:password],
