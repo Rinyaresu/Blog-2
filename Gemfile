@@ -54,6 +54,7 @@ group :development do
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
   # Provides a better error page for Rails and other Rack apps
   gem 'better_errors'
+  gem 'solargraph', group: :development
 end
 
 group :test do
