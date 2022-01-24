@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+.main.container.is-max-desktop{
+  max-width: 1800px;
+}
+
 .image.is-128x128{
   margin-top: 20px;
   margin-left: 20px;
@@ -11,9 +15,11 @@
   display: flex;
   text-align: inherit;
   flex-direction: column;
+  width: 400px;
+  height: 511.344px;
 }
 
-.content h1, {
+.content h1 {
   font-size: 2em;
   margin-bottom: 0.5em;
   margin-top: 20px;
