@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>KaiqueOnRails</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>KaiqueOnRails</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <script src="https://kit.fontawesome.com/4f6ef13ecc.js" crossorigin="anonymous"></script>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= favicon_link_tag asset_path('android-chrome-512x512.png') %>
+</head>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= favicon_link_tag asset_path('android-chrome-512x512.png') %>
-  </head>
+<body>
+<section class="hero is-small is-primary has-background-dark" >
+  <!-- Hero Content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container is-fluid">
+      <h1 class="title">
+        <%= link_to 'KaiqueOnRails', root_path %>
+      </h1>
+    </div>
+  </div>
+</section>
 
-  <body>
-    <section class="hero is-small is-primary has-background-dark" >
-      <!-- Hero Content: will be in the middle -->
-      <div class="hero-body">
-        <div class="container is-fluid">
-          <h1 class="title">
-            <%= link_to 'KaiqueOnRails', root_path %>
-          </h1>
-        </div>
-      </div>
-    </section>
-
-    <%= yield %>
-  </body>
+<%= yield %>
+</body>
 </html>
