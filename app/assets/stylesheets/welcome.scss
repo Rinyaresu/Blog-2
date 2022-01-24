@@ -1,0 +1,44 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.image.is-128x128{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.media {
+  display: flex;
+  text-align: inherit;
+  flex-direction: column;
+}
+
+.content h1, {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.description {
+  margin-left: 25px;
+}
+
+.icon {
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+
+.a-welcome{
+  color: #000000;
+}
+
+.a-profile{
+  color: #000000;
+}
+
+.profile-icons {
+  margin-left: 25px;
+  margin-top: 10px;
+}
