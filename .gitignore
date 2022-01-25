@@ -41,3 +41,5 @@ yarn-debug.log*
 
 #excluding rubymine archives
 .idea
+
+config/credentials/environment.key
