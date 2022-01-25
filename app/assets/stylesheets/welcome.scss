@@ -2,11 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.main.container.is-max-desktop{
-  max-width: 1800px;
+.welcome.container{
+  margin: 0px;
 }
 
-.image.is-128x128{
+.image.is-256x256{
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -15,8 +15,11 @@
   display: flex;
   text-align: inherit;
   flex-direction: column;
-  width: 400px;
-  height: 511.344px;
+  width: 1920px;
+  height: 1080px;
+  margin: 0px;
+  align-items: center;
+  background-color: white;
 }
 
 .content h1 {
