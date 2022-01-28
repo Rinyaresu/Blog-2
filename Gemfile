@@ -80,3 +80,5 @@ gem 'binding_of_caller', '~> 1.0'
 gem 'remotipart', '~> 1.4', '>= 1.4.4'
 
 gem 'rubocop-rails', require: false
+
+gem 'newrelic_rpm'
