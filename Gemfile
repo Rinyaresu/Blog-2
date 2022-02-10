@@ -82,3 +82,5 @@ gem 'remotipart', '~> 1.4', '>= 1.4.4'
 gem 'rubocop-rails', require: false
 
 gem 'newrelic_rpm'
+
+gem 'tty-spinner'
