@@ -5,6 +5,7 @@
     <div class="show-media-content">
       <p class="title is-2 "> <%= link_to @post.title, @post, class: "a-primary" %></p>
     </div>
+    <p class="date"><%= @post.created_at.strftime("#{@post.created_at.day.ordinalize} %B %Y") %></p>
     <hr />
     <div class="content">
       <%= @post.content %>

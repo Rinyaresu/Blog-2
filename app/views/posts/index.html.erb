@@ -9,6 +9,7 @@
         <div class="media">
           <div class="media-content">
             <p class="title is-4 "> <%= link_to post.title, post, class: "a-index" %></p>
+              <%= post.created_at.strftime("#{post.created_at.day.ordinalize} %B %Y") %>
           </div>
         </div>
         <div class="content">
